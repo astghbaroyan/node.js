@@ -155,3 +155,33 @@ console.table([
 //│    2    │ 'Lilith' │  'Loryan'   │
 //│    3    │  'Azat'  │ 'Zaqaryan'  │
 //└─────────┴──────────┴─────────────┘
+
+
+// OS module
+import os from 'os';
+
+console.log('os.arch()', os.arch()); // x64
+console.log('os.cpus()', os.cpus());//  {
+//   model: 'Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz',
+//   speed: 3293,
+//   times: { user: 355890, nice: 0, sys: 195218, idle: 6967000, irq: 12218 }
+// }
+console.log('os.devNull', os.devNull);  // \\.\nul
+console.log('os.endianness()', os.endianness()); //  LE
+console.log('os.freemem()',os.freemem()); //  937611264
+console.log('os.homedir()', os.homedir()); // C:\Users\petya
+console.log('os.hostname()', os.hostname()); // DESKTOP-DARGLR3
+console.log('os.loadavg()', os.loadavg()); // [ 0, 0, 0 ]
+console.log('os.networkInterfaces()', os.networkInterfaces()); // obj about network
+console.log('os.platform()',os.platform()); // win32
+console.log('os.release()', os.release()); // 10.0.19044
+console.log('os.tmpdir()', os.tmpdir());  //  C:\Users\petya\AppData\Local\Temp
+console.log('os.totalmem()', os.totalmem()); //  4203020288
+console.log('os.type()', os.type()); //  Windows_NT
+console.log('os.uptime()', os.uptime()); // 8630
+console.log('os.version()', os.version()); //  Windows 10 Pro
+
+
+
+
+
